@@ -9,11 +9,13 @@
 .mask {
   margin-top: -400px;
   position: relative;
-  z-index: 100;
+  z-index: 6;
   background: white;
   height: 360px;
   width: 100%;
   mix-blend-mode: screen;
   display: block;
+}
+.mask:hover {
   pointer-events: none;
 }

@@ -1,26 +1,30 @@
-import { React, useState } from "react";
+import { React, useState, useRef } from "react";
 // import "./fluid_simulation/script";
 import FluidAnimation from "react-fluid-animation";
 import CreativeStyle from "../styles/creative.module.css";
 const defaultConfig = {
-  textureDownsample: 1,
-  densityDissipation: 0.98,
-  velocityDissipation: 0.99,
-  pressureDissipation: 0.8,
+  textureDownsample: 2,
+  densityDissipation: 3,
+  velocityDissipation: 2,
+  pressureDissipation: 2,
   pressureIterations: 25,
   curl: 30,
   splatRadius: 0.005,
 };
 function Creative() {
+  const clicker = useRef(<div></div>);
   const [config, setconfig] = useState({ ...defaultConfig });
-
+  const clickerfunc = () => {
+    clicker.current.focus();
+  };
   return (
     <>
       <FluidAnimation
+        ref={(node) => (clicker.current = node)}
         config={config}
         style={{ height: "400px", zIndex: "6" }}
       />
-      <div className={CreativeStyle.mask}>
+      <div className={CreativeStyle.mask} onHover={clickerfunc}>
         <svg
           version="1.1"
           id="Layer_1"
