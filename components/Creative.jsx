@@ -19,7 +19,6 @@ function Creative() {
       <FluidAnimation
         config={config}
         style={{ height: "400px", zIndex: "6" }}
-        onHover={true}
       />
       <div className={CreativeStyle.mask}>
         <svg
