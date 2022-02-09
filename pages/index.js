@@ -8,6 +8,7 @@ import Creative from "../components/Creative";
 import ParallaxGrid from "../components/ParallaxGrid";
 import CrResume from "../components/CrResume";
 import NeonSocialIcons from "../components/NeonSocialIcons";
+import ParticleCanvas from "../components/ParticleCanvas";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <ParallaxGrid />
         <CrResume />
         <NeonSocialIcons />
+        <ParticleCanvas />
       </main>
     </div>
   );

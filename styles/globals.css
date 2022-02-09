@@ -472,6 +472,7 @@
   .containerNSI {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     height: 100vh;
     width: 100vw;
@@ -502,6 +503,67 @@
   }
   #github {
     animation-delay: 0.1s;
+  }
+  .navParticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #1e1f26;
+    text-align: center;
+    padding: 0 2em;
+  }
+
+  .navParticle h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 5vw;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.3rem;
+    color: #03dac6;
+    transition: all 0.3s ease;
+    z-index: 3;
+  }
+  .navParticle h1:hover {
+    transform: translate3d(0, -10px, 22px);
+    color: #ff0266;
+  }
+
+  .navParticle h3.span {
+    font-size: 2vw;
+    letter-spacing: 0.15rem;
+    font-family: "ROBOTO", sans-serif;
+    font-weight: 300;
+    color: #faebd7;
+    z-index: 4;
+  }
+  .navParticle span:hover {
+    color: #ff0266;
+    font-weight: 500;
+    font-size: 2.2vw;
+  }
+
+  @media (min-width: 800px) {
+    .navParticle h1 {
+      font-size: 5vw;
+    }
+
+    .navParticle h2 {
+      font-size: 3vw;
+    }
+  }
+
+  @media screen only (min-width: 360px) {
+    .navParticle h1 {
+      font-size: 8vw;
+    }
+
+    .navParticle h2 {
+      font-size: 2vw;
+      letter-spacing: 0.2vw;
+    }
   }
 }
 
