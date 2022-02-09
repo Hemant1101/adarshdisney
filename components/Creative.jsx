@@ -21,12 +21,12 @@ function Creative() {
 
   return (
     <>
-      {/* <FluidAnimation
+      <FluidAnimation
         ref={(node) => (clicker.current = node)}
         // config={config}
         style={{ height: "400px", zIndex: "6" }}
-      /> */}
-      {/* <div style={{ height: "400px" }}></div> */}
+      />
+      <div className={CreativeStyle.upbox}></div>
       <WrapGraphics />
       <div className={CreativeStyle.mask} onHover={clickerfunc}>
         <svg

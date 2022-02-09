@@ -19,3 +19,15 @@
 .mask:hover {
   pointer-events: none;
 }
+.upbox {
+  height: 360px;
+}
+@media only screen and (max-width: 750px) {
+  .mask {
+    height: 200px;
+    margin-top: -200px;
+  }
+  .upbox {
+    height: 200px;
+  }
+}

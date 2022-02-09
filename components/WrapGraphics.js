@@ -4,8 +4,8 @@ function WrapGraphics() {
   const canvas = useRef(<canvas></canvas>);
 
   useEffect(() => {
-    const canvasHieght = 400;
-    canvas.current.width = window.innerWidth;
+    const canvasHieght = window.innerWidth < 800 ? 200 : 360;
+    canvas.current.width = window.innerWidth - 17;
     canvas.current.height = canvasHieght;
 
     // Initialize the GL context
@@ -87,10 +87,10 @@ function WrapGraphics() {
     window.addEventListener("resize", onWindowResize, false);
 
     function onWindowResize() {
-      canvas.current.width = window.innerWidth;
+      canvas.current.width = window.innerWidth - 17;
       canvas.current.height = canvasHieght;
       gl.viewport(0, 0, canvas.current.width, canvas.current.height);
-      gl.uniform1f(widthHandle, window.innerWidth);
+      gl.uniform1f(widthHandle, window.innerWidth - 17);
       gl.uniform1f(heightHandle, canvasHieght);
     }
 
@@ -172,7 +172,7 @@ function WrapGraphics() {
     var widthHandle = getUniformLocation(program, "width");
     var heightHandle = getUniformLocation(program, "height");
 
-    gl.uniform1f(widthHandle, window.innerWidth);
+    gl.uniform1f(widthHandle, window.innerWidth - 17);
     gl.uniform1f(heightHandle, canvasHieght);
 
     var lastFrame = Date.now();
@@ -199,7 +199,7 @@ function WrapGraphics() {
       <canvas
         ref={(node) => (canvas.current = node)}
         id="canvas"
-        width="100%"
+        width="90%"
         height="400"
       ></canvas>
     </>
