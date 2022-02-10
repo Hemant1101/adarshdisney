@@ -23,389 +23,199 @@ function ParallaxGrid() {
         data-friction-y="0.05"
       >
         <div className="layer main" data-depth="1.0">
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+          <div className="layerMainWrapper">
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
+            <div className="col">
+              <a className="a" href="#">
+                <div className="hover">
+                  <div className="pad align_bottom">
+                    <h2 className="h2">Project Title</h2>
+                  </div>
                 </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="col">
-            <a className="a" href="#">
-              <div className="hover">
-                <div className="pad align_bottom">
-                  <h2 className="h2">Project Title</h2>
-                </div>
-              </div>
-              <div
-                className={ParallaxStyle.bg_img}
-                style={{
-                  backgroundImage:
-                    "url(http://www.caseycallis.com/codepen/img1.jpg);",
-                }}
-              ></div>
-            </a>
+                <div
+                  className={ParallaxStyle.bg_img}
+                  style={{
+                    backgroundImage:
+                      "url(http://www.caseycallis.com/codepen/img1.jpg);",
+                  }}
+                ></div>
+              </a>
+            </div>
           </div>
         </div>
       </section>

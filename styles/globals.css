@@ -65,8 +65,8 @@
     display: inline-block;
     overflow: hidden;
     position: relative;
-    width: 12.5%;
-    min-height: 100px;
+    width: 300px;
+    height: 150px;
     pointer-events: all;
     overflow: initial;
     margin: 0 0 30px;
@@ -76,6 +76,14 @@
     position: absolute;
     z-index: 1;
     padding: 20px;
+    height: 500px;
+  }
+  .layerMainWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: 600px;
   }
   .col .a {
     display: block;
@@ -140,6 +148,9 @@
     left: 0;
     background-size: cover;
     background-position: 50% 50%;
+  }
+  .carousel .slide {
+    min-width: 200px !important;
   }
 
   @media only screen and (max-width: 1200px) {
@@ -514,6 +525,7 @@
     background-color: #1e1f26;
     text-align: center;
     padding: 0 2em;
+    z-index: 50;
   }
 
   .navParticle h1 {
@@ -524,7 +536,7 @@
     letter-spacing: 0.3rem;
     color: #03dac6;
     transition: all 0.3s ease;
-    z-index: 3;
+    z-index: 5;
   }
   .navParticle h1:hover {
     transform: translate3d(0, -10px, 22px);
@@ -564,6 +576,13 @@
       font-size: 2vw;
       letter-spacing: 0.2vw;
     }
+  }
+  #tsparticles canvas {
+    height: 100px;
+    z-index: 50;
+  }
+  .carousel .slide {
+    min-width: 200px !important;
   }
 }
 
