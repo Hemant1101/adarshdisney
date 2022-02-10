@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-function WrapGraphics() {
+function WrapGraphics(props) {
   const canvas = useRef(<canvas></canvas>);
 
   useEffect(() => {
@@ -199,8 +199,8 @@ function WrapGraphics() {
       <canvas
         ref={(node) => (canvas.current = node)}
         id="canvas"
-        width="90%"
-        height="400"
+        width={props.width}
+        height={props.height}
       ></canvas>
     </>
   );
